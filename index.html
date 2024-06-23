@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade HTML + JS</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header>
+        <h1>Atividade - Módulo 07</h1>
+        <h2>Integrando HTML com JavaScript</h2>
+    </header>
+    <div class="container">
+        <h2>Preencha os campos abaixo:</h2>
+        <form id="form">
+            <input type="number" id="number-a" required placeholder="Insira o valor A" />
+            <input type="number" id="number-b" required placeholder="Insira o valor B" />
+            <button type="submit">Validar</button>
+            <button type="button" id="reset-button">Limpar</button>
+        </form>
+        <p class="success-message"></p>
+        <p class="error-message" style="display: none; color: red;">Formulário inválido</p>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
